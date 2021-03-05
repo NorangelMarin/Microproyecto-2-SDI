@@ -1,5 +1,4 @@
 section{
-    background: #de1111;
     width: 100%;
     height: 100vh;
     
@@ -28,12 +27,13 @@ section{
 
    .btn-vm{
        width: 100%;
-       align-items: center;
+       display: flex;
+       justify-content: center;
         button{
             margin: 1%;
             padding: 0.5%;
             outline: black 2px auto;
-            width: 65%;
+            width: 70%;
             background-color:white;
             color: #de1111;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
