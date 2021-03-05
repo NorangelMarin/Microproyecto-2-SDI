@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { PeliculasComponent } from './components/peliculas/peliculas.component';
+import { ListaPeliculasComponent } from './components/lista-peliculas/lista-peliculas.component';
+import { DetallesPeliculaComponent } from './components/detalles-pelicula/detalles-pelicula.component';
+import { ReservaComponent } from './components/reserva/reserva.component';
+import { FavoritosComponent } from './components/favoritos/favoritos.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    NavbarComponent,
+    PeliculasComponent,
+    ListaPeliculasComponent,
+    DetallesPeliculaComponent,
+    ReservaComponent,
+    FavoritosComponent
   ],
   imports: [
     BrowserModule,
