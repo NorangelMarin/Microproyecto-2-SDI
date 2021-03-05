@@ -11,6 +11,26 @@ import { DetallesPeliculaComponent } from './components/detalles-pelicula/detall
 import { ReservaComponent } from './components/reserva/reserva.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { BtnFavoritosComponent } from './components/btn-favoritos/btn-favoritos.component';
+import { Routes } from '@angular/router';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+
+const routes: Routes = [
+  {path: '', component: InicioComponent},
+  {path: 'footer', component: FooterComponent},
+  {path: 'login', component: LoginComponent},
+  {path: 'navbar', component: NavbarComponent},
+  {path: 'peliculas', component: PeliculasComponent},
+  {path: 'lista-peliculas', component: ListaPeliculasComponent},
+  {path: 'detalles-pelicula', component: DetallesPeliculaComponent},
+  {path: 'reserva', component: ReservaComponent},
+  {path: 'favoritos', component: FavoritosComponent},
+  {path: 'btn-favoritos', component: BtnFavoritosComponent}
+];
+
+
+
 
 @NgModule({
   declarations: [
