@@ -10,6 +10,7 @@ import { ListaPeliculasComponent } from './components/lista-peliculas/lista-peli
 import { DetallesPeliculaComponent } from './components/detalles-pelicula/detalles-pelicula.component';
 import { ReservaComponent } from './components/reserva/reserva.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
+import { BtnFavoritosComponent } from './components/btn-favoritos/btn-favoritos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FavoritosComponent } from './components/favoritos/favoritos.component';
     ListaPeliculasComponent,
     DetallesPeliculaComponent,
     ReservaComponent,
-    FavoritosComponent
+    FavoritosComponent,
+    BtnFavoritosComponent
   ],
   imports: [
     BrowserModule,
