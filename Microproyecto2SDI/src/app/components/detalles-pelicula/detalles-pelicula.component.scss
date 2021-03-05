@@ -8,29 +8,28 @@
         background-color: whitesmoke;
         border-radius: 5px;
         border: solid black 2px;
-        width: 30%;
-        padding: 5%;
+        width: 40%;
+        padding: 2%;
         margin-top: 5%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
         h1{
-            font-size: 150%;
+            font-size: 100%;
         }
         h2{
-            font-size: 100%;
+            font-size: 90%;
         }
         p{
-            font-size: 100%;
+            font-size: 80%;
             text-align: justify;
         }
 
-        .btn-reservar{
+        .btn{
             width: 100%;
             display: flex;
             justify-content: center;
 
             button{
-                position: absolute;
                 margin: 2%;
                 padding: 1%;
                 outline: black 2px auto;
@@ -41,6 +40,18 @@
                 font-size: 15px;
     
             }
-        }  
+        } 
+        
+        .img{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+    
+            img{
+                width: 50%;
+                height: 50%;
+                margin-bottom: 5%;
+            }
+        }
     }
 }
