@@ -11,11 +11,17 @@ import { DetallesPeliculaComponent } from './components/detalles-pelicula/detall
 import { ReservaComponent } from './components/reserva/reserva.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { BtnFavoritosComponent } from './components/btn-favoritos/btn-favoritos.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    InicioComponent,
     LoginComponent,
+    FooterComponent,
     NavbarComponent,
     PeliculasComponent,
     ListaPeliculasComponent,

@@ -1,0 +1,34 @@
+#Navbar {
+    border-radius: 5px;
+    border: whitesmoke 2px solid;
+    ul {
+        display: flex;
+        list-style: none;
+
+        li{ 
+            display: inline-block;
+            width: 50%;           
+
+            a { padding: 5%;
+                display: block;      
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+                text-decoration: none; 
+                color: whitesmoke;
+                font-weight: bold;
+                text-align: center;}
+
+            a:hover{
+                color: #de1111;
+                transition: all .3;
+
+            }
+        }
+    }
+
+    
+    
+    
+    
+    
+
+}
