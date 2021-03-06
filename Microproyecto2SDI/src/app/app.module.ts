@@ -51,7 +51,7 @@ import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjet
     BrowserModule,
     AppRoutingModule,
 
-    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule
