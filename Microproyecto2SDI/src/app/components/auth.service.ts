@@ -7,14 +7,6 @@ import firebase from 'firebase';
 })
 export class AuthService {
 
-  constructor(private googleAuth: AngularFireAuth) { }
+  constructor() { }
 
-
-  async loginWithGoogle(): Promise<firebase.UserInfo> {
-    try {
-      return this.googleAuth.signInWithPopup(new firebase.auth.GoogleAuthProvider());
-    }catch (error) {
-      console.log(error);
-    }
-  }
 }
