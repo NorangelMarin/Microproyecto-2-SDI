@@ -10,6 +10,10 @@ import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { BtnFavoritosComponent } from './components/btn-favoritos/btn-favoritos.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TarjetaPeliculasPrincipalesComponent } from './components/tarjeta-peliculas-principales/tarjeta-peliculas-principales.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+import { PaginacionComponent } from './components/paginacion/paginacion.component';
+import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjeta-peliculas.component';
 
 const routes: Routes = [
   {path: '', component: InicioComponent},
@@ -21,8 +25,12 @@ const routes: Routes = [
   {path: 'detalles-pelicula', component: DetallesPeliculaComponent},
   {path: 'reserva', component: ReservaComponent},
   {path: 'favoritos', component: FavoritosComponent},
-  {path: 'btn-favoritos', component: BtnFavoritosComponent}
-];
+  {path: 'btn-favoritos', component: BtnFavoritosComponent},
+  {path: 'tarjeta-peliculas', component: TarjetaPeliculasComponent},
+  {path: 'buscador', component: BuscadorComponent},
+  {path: 'paginacion', component: PaginacionComponent},
+  {path: 'tarjeta-peliculas-principales', component: TarjetaPeliculasPrincipalesComponent}
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

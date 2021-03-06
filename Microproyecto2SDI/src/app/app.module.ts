@@ -22,6 +22,10 @@ import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { BtnFavoritosComponent } from './components/btn-favoritos/btn-favoritos.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TarjetaPeliculasPrincipalesComponent } from './components/tarjeta-peliculas-principales/tarjeta-peliculas-principales.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+import { PaginacionComponent } from './components/paginacion/paginacion.component';
+import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjeta-peliculas.component';
 
 
 
@@ -37,7 +41,11 @@ import { FooterComponent } from './components/footer/footer.component';
     DetallesPeliculaComponent,
     ReservaComponent,
     FavoritosComponent,
-    BtnFavoritosComponent
+    BtnFavoritosComponent,
+    TarjetaPeliculasPrincipalesComponent,
+    BuscadorComponent,
+    PaginacionComponent,
+    TarjetaPeliculasComponent
   ],
   imports: [
     BrowserModule,
