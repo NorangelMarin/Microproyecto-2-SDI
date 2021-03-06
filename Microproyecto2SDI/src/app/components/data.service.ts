@@ -9,9 +9,9 @@ import { Observable } from "rxjs";
 export class DataService {
 
   constructor(private http: HttpClient) { }
-  Apikey = "";
+  Apiurl = "https://api.themoviedb.org/3/movie/550?api_key=45de787fddd0a31b33ab5815e5b2ef85";
   getPost():Observable<Pelicula[]> {
-    return this.http.get<Pelicula[]>(this.Apikey, {
+    return this.http.get<Pelicula[]>(this.Apiurl, {
       params: {
         por_pagina: "8"
       }
